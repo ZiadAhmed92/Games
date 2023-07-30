@@ -1,0 +1,21 @@
+.main-library{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #343738;
+    padding: 10px;
+}
+.btn-library{
+    border: 1px solid ;
+    color: white;
+    border-radius: 20px;
+}
+.btn-library:hover{
+    border: 1px solid  #e75e8d ;
+    color:  #e75e8d;
+}
+@media only screen and (max-width: 600px) {
+    .main-library{
+flex-direction: column;
+    }
+  }

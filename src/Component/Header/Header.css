@@ -1,0 +1,25 @@
+.btn-nav{
+    background-color: #27292a;
+    border: none;
+    color: #6c757d;
+    width: fit-content;
+   
+}
+
+.nav-link{
+    color: #6c757d;
+    padding:0 20px  !important;
+}
+.nav-link:hover{
+    color: #e75e8d !important;
+    transition: 500ms;
+}
+.btn-nav:hover{
+    background-color: #e75e8d;
+    color: white !important;
+    transition: 800ms;
+}
+
+.active{
+    color: #e75e8d !important;
+}

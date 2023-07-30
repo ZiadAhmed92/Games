@@ -1,0 +1,13 @@
+.container-main{
+    background-color: #27292a;
+    padding: 50px;
+    border-radius: 20px;
+}
+.mostPopular{
+    background-color: #1f2122;
+    border-radius: 20px;
+   
+}
+em{
+    border-bottom: 2px solid;
+}

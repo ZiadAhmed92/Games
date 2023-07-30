@@ -1,0 +1,38 @@
+.hero-main{
+    /* background: rgb(103, 221, 221); */
+    padding: 70px 50px;
+    border-radius: 20px;
+    background: url(../../assets/Images/banner-bg.jpg) center no-repeat;
+   background-size: cover;
+}   
+
+.hero-text h4{
+   
+    font-size:3em;
+    font-weight: 700;
+    max-width: 500px;
+}
+.hero-text h4 span{
+    color:#e75e8d ;
+}
+.btn-hero{
+    background-color: #e75e8d;
+    border-radius: 20px;
+    padding: 5px;
+   
+}
+.btn-hero a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    padding: 0 15px;
+
+}
+.btn-hero:hover{
+    background-color: white;
+    transition: 600ms;
+}
+.btn-hero:hover a{
+    color: #e75e8d;
+    transition: 600ms;
+}

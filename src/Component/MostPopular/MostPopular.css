@@ -1,0 +1,47 @@
+.card-most-popular{
+    background-color: #27292a;
+    border-radius: 20px;
+    border: 6px solid #1f2122;
+    /* margin-left: 1px; */
+    margin-bottom: 10px;
+}
+.img-popular{
+    border-radius: 20px;
+}
+.text-popular{
+    color: #666;
+}
+.icon-main-popular{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-main-popular a{
+ text-decoration: none;
+ color: white;
+ font-size: .8em;
+}
+.fa-download{
+   
+    color:#e75e8d  ;
+}
+.fa-star{
+    color: yellow;
+   
+}
+.rigth-popular{
+    color:#e75e8d  ;
+}
+.btn-popular {
+    background-color: #e75e8d;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    width: fit-content;
+     transform: translateY(50%);
+}
+
+.btn-popular:hover {
+    background-color: white;
+    color: #e75e8d;
+}

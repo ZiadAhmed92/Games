@@ -1,0 +1,32 @@
+.profile-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+.text-profile{
+    color: rgba(255, 255, 255, .3);
+}
+.container-profile{
+    background-color: #27292a;
+    padding: 15px;
+   border-radius: 20px;
+}
+.item-profile{
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    justify-content: space-between;
+    padding: 10px;
+}
+.row-1{
+    border-bottom:1px solid rgba(255, 255, 255, .3); ;
+}
+.prfile-clip{
+    border: 5px solid #1f2122;
+}
+@media only screen and (max-width: 600px) {
+    .Alan{
+background-color:#27292a ;
+padding: 20px;
+border-radius: 20px;
+    }
+  }
