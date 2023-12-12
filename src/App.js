@@ -1,4 +1,4 @@
-import { Footer , Header , Container,Profile, Details, Streams ,Browse} from "./Component/PathComponent";
+import { Footer , Header , Container ,Profile, Details, Streams ,Browse} from "./Component/PathComponent";
 import './App.css'
 
 import { Route, Routes } from "react-router-dom";
@@ -8,12 +8,13 @@ function App() {
            <Header />
          
                   <Routes>
-                    <Route path="/" element={<Container/>}/>
-                    <Route path="Home" element={<Container/>}/>
-                    <Route path="Browse" element={<Browse/>}/>
-                    <Route path="Details" element={<Details/>}/>
-                    <Route path="Streams" element={<Streams/>}/>
-                    <Route path="Profile" element={<Profile/>}/>
+                    <Route path="/" element={<Container/>} />
+                  <Route path="/home" element={<Container />}/>
+                    
+                    <Route path="/browse" element={<Browse />}/>
+                    <Route path="/details" element={<Details />}/>
+                    <Route path="/streams" element={<Streams />}/>
+                    <Route path="/profile" element={<Profile />}/>
                   </Routes>
            
               

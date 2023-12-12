@@ -13,7 +13,7 @@ import popular2 from '../../assets/Images/popular-02.jpg'
 import popular3 from '../../assets/Images/popular-03.jpg' 
 import popular4 from '../../assets/Images/popular-04.jpg' 
 import popular5 from '../../assets/Images/popular-05.jpg' 
-import popular6 from '../../assets/Images/popular-06.jpg'  
+
 
 export default function Streams() {
 
